@@ -1,10 +1,11 @@
 Backup v4.x
 ===========
 
-Backup is a system utility for Linux and Mac OS X, distributed as a RubyGem, that allows you to easily perform backup
-operations. It provides an elegant DSL in Ruby for _modeling_ your backups. Backup has built-in support for various
-databases, storage protocols/services, syncers, compressors, encryptors and notifiers which you can mix and match. It
-was built with modularity, extensibility and simplicity in mind.
+This repo is a fork of Michael van Rooijen's backup gem (https://github.com/meskyanichi/backup). You probably don't want this version.
+
+Changes from original version:
+
+  * Add paracycle's Slack notifier (pull #527)
 
 [Installation][] &middot; [Release Notes][] &middot; [Documentation][]
 

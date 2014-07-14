@@ -3,19 +3,16 @@
 require File.expand_path('lib/backup/version')
 
 Gem::Specification.new do |gem|
-  gem.name        = 'backup'
+  gem.name        = 'nfm-backup'
   gem.version     = Backup::VERSION
   gem.platform    = Gem::Platform::RUBY
   gem.authors     = 'Michael van Rooijen'
-  gem.email       = 'meskyanichi@gmail.com'
-  gem.homepage    = 'https://github.com/meskyanichi/backup'
+  gem.email       = 'nfm@nfm.id.au'
+  gem.homepage    = 'https://github.com/nfm/backup'
   gem.license     = 'MIT'
   gem.summary     = 'Provides an elegant DSL in Ruby for performing backups on UNIX-like systems.'
   gem.description = <<-EOS.gsub(/\s+/, ' ').strip
-    Backup is a RubyGem, written for UNIX-like operating systems, that allows you to easily perform backup operations
-    on both your remote and local environments. It provides you with an elegant DSL in Ruby for modeling your backups.
-    Backup has built-in support for various databases, storage protocols/services, syncers, compressors, encryptors
-    and notifiers which you can mix and match. It was built with modularity, extensibility and simplicity in mind.
+    Fork of Michael van Rooijen's backup gem (https://github.com/meskyanichi/backup). You probably don't want this version.
   EOS
 
   gem.files = %x[git ls-files -- lib bin templates README.md LICENSE.md].split("\n")
